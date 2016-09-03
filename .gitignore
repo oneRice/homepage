@@ -1,0 +1,12 @@
+
+.DS_Store
+.D
+
+*.map
+*.log
+
+node_modules/
+typings/
+
+app/*.js
+app/*.js.map

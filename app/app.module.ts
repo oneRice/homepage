@@ -3,8 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule }   from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { IndexComponent } from './index.component';
+import { HomeComponent } from './home.component';
 import { NavComponent } from './nav.component';
+import { FootComponent } from './foot.component';
 
 import { routing } from './app.route';
 
@@ -16,8 +17,9 @@ import { routing } from './app.route';
   ],
   declarations: [
     AppComponent,
-    IndexComponent,
-    NavComponent
+    HomeComponent,
+    NavComponent,
+    FootComponent
   ],
   providers: [
   ],

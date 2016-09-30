@@ -1,17 +1,17 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { IndexComponent } from './index.component';
+import { HomeComponent } from './home.component';
 
 const appRoutes: Routes = [
     {
         path: '',
-        redirectTo: '/index',
+        redirectTo: '/home',
         pathMatch: 'full'
     },
     {
-        path: 'index',
-        component: IndexComponent
+        path: 'home',
+        component: HomeComponent
     },
 ];
 

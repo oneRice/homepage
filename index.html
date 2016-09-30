@@ -21,6 +21,16 @@
   </head>
   <!-- 3. Display the application -->
   <body>
-    <my-app><h1>I'm not ready yet</h1></my-app>
+    <style>
+      #initialBar { 
+        position:fixed;
+        margin: auto;
+        top: 0; left: 0; bottom: 0; right: 0;
+      }
+    </Style>
+    <my-app>
+      <!-- MDL Progress Bar with Indeterminate Progress -->
+      <div id="initialBar" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
+    </my-app>
   </body>
 </html>

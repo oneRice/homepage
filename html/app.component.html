@@ -1,7 +1,16 @@
-<div class="mdl-layout mdl-js-layout">
-    <my-nav></my-nav>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+        <my-nav></my-nav>
+    </header>
 
-    <my-content></my-content>
-    
-    <my-foot></my-foot>
+    <div class="mdl-layout__drawer">
+        <my-sidebar></my-sidebar>
+    </div>
+
+    <main class="mdl-layout__content">
+        <my-content></my-content>
+    </main>
+
+    <my-footer></my-footer>
+
 </div>

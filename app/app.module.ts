@@ -1,15 +1,19 @@
+// Angular Module
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule }   from '@angular/forms';
 
+// Structrue Module
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home.component';
 import { NavComponent } from './nav.component';
 import { SidebarComponent } from './sidebar.component';
 import { ContentComponent } from './content.component';
 import { FootComponent } from './foot.component';
 
+// Content Module
+import { HomeComponent } from './home.component';
 import { SkilltreeComponent } from './skilltree.component';
+import { ResumeComponent } from './resume.component';
 
 import { routing } from './app.route';
 
@@ -21,13 +25,14 @@ import { routing } from './app.route';
   ],
   declarations: [
     AppComponent,
-    HomeComponent,
     NavComponent,
     SidebarComponent,
     ContentComponent,
     FootComponent,
-    
-    SkilltreeComponent
+
+    HomeComponent,
+    SkilltreeComponent,
+    ResumeComponent
   ],
   providers: [
   ],

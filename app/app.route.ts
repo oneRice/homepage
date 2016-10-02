@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home.component';
 import { SkilltreeComponent } from './skilltree.component';
+import { ResumeComponent } from './resume.component';
 
 const appRoutes: Routes = [
     {
@@ -17,6 +18,10 @@ const appRoutes: Routes = [
     {
         path: 'skilltree',
         component: SkilltreeComponent
+    },
+    {
+        path: 'resume',
+        component: ResumeComponent
     }
 ];
 

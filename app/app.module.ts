@@ -11,6 +11,7 @@ import { ContentComponent } from './content.component';
 import { FootComponent } from './foot.component';
 
 // Content Module
+import { FabComponent } from './fab.component';
 import { HomeComponent } from './home.component';
 import { SkilltreeComponent } from './skilltree.component';
 import { ResumeComponent } from './resume.component';
@@ -30,6 +31,7 @@ import { routing } from './app.route';
     ContentComponent,
     FootComponent,
 
+    FabComponent,
     HomeComponent,
     SkilltreeComponent,
     ResumeComponent

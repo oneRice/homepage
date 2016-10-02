@@ -9,6 +9,8 @@ import { SidebarComponent } from './sidebar.component';
 import { ContentComponent } from './content.component';
 import { FootComponent } from './foot.component';
 
+import { SkilltreeComponent } from './skilltree.component';
+
 import { routing } from './app.route';
 
 @NgModule({
@@ -23,7 +25,9 @@ import { routing } from './app.route';
     NavComponent,
     SidebarComponent,
     ContentComponent,
-    FootComponent
+    FootComponent,
+    
+    SkilltreeComponent
   ],
   providers: [
   ],

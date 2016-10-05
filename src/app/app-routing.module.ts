@@ -12,8 +12,7 @@ const appRoutes: Routes = [
   // default page
   {
     path: '',
-    redirectTo: '/home',
-    pathMatch: 'full'
+    component: HomeComponent
   },
   // not found page
   // {

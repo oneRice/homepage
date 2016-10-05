@@ -1,26 +1,34 @@
 <div class="main-container" mdl-shadow="2">
    <mdl-layout mdl-layout-fixed-header>
+       
+       <!--nav bar-->
       <mdl-layout-header>
          <mdl-layout-header-row>
-            <mdl-layout-title>Title</mdl-layout-title>
+            <mdl-layout-title>{{title}}</mdl-layout-title>
             <mdl-layout-spacer></mdl-layout-spacer>
             <nav class="mdl-navigation">
-               <a class="mdl-navigation__link">Link 1</a>
-               <a class="mdl-navigation__link" >Link 2</a>
-               <a class="mdl-navigation__link">Link 3</a>
+               <a class="mdl-navigation__link" routerLink="/home">Home</a>
+               <a class="mdl-navigation__link" routerLink="/home">Link 2</a>
+               <a class="mdl-navigation__link" routerLink="/home">Link 3</a>
             </nav>
          </mdl-layout-header-row>
       </mdl-layout-header>
+
+      <!--side bar-->
       <mdl-layout-drawer>
-         <mdl-layout-title>Title</mdl-layout-title>
+         <mdl-layout-title>{{title}}</mdl-layout-title>
          <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" routerLink="/home">Link 1</a>
-            <a class="mdl-navigation__link" (click)="mdlLayout1.closeDrawer()">Link 2</a>
-            <a class="mdl-navigation__link"  (click)="mdlLayout1.closeDrawer()">Link 3</a>
+            <a class="mdl-navigation__link" routerLink="/home">Home</a>
+            <a class="mdl-navigation__link" routerLink="/home">Link 2</a>
+            <a class="mdl-navigation__link" routerLink="/home">Link 3</a>
          </nav>
       </mdl-layout-drawer>
+
+      <!--actual content-->
       <mdl-layout-content>
           <router-outlet></router-outlet>
       </mdl-layout-content>
+      
+      <!--footer-->
    </mdl-layout>
 </div>

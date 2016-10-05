@@ -6,7 +6,7 @@
          <mdl-layout-header-row>
             <mdl-layout-title>{{title}}</mdl-layout-title>
             <mdl-layout-spacer></mdl-layout-spacer>
-            <nav class="mdl-navigation">
+            <nav class="mdl-navigation mdl-layout--large-screen-only">
                <a class="mdl-navigation__link" routerLink="/home">Home</a>
                <a class="mdl-navigation__link" routerLink="/home">Link 2</a>
                <a class="mdl-navigation__link" routerLink="/home">Link 3</a>
@@ -27,6 +27,7 @@
       <!--actual content-->
       <mdl-layout-content>
           <router-outlet></router-outlet>
+          <app-footer></app-footer>
       </mdl-layout-content>
       
       <!--footer-->

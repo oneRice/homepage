@@ -6,12 +6,12 @@
 
 @media (min-width: 839px) and (max-width: 1023px) {
     .error-card {
-        width: 700px;
+        width: 500px;
     }
 }
 
 @media (min-width: 1024px) {
     .error-card {
-        width : 800px;
+        width : 600px;
     }
 }

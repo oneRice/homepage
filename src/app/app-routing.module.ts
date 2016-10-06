@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { BlogComponent } from './blog/blog.component';
 
 const appRoutes: Routes = [
   {
@@ -19,6 +20,10 @@ const appRoutes: Routes = [
   {
     path: 'projects',
     component: ProjectsComponent
+  },
+  {
+    path: 'blog',
+    component: BlogComponent
   },
   // default page
   {

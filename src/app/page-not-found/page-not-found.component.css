@@ -1,17 +1,11 @@
-@media (min-width: 480px) and (max-width: 839px) {
+@media (min-width: 839px) and (max-width: 1023px) {
     .error-card {
         width: 400px;
     }
 }
 
-@media (min-width: 839px) and (max-width: 1023px) {
-    .error-card {
-        width: 500px;
-    }
-}
-
 @media (min-width: 1024px) {
     .error-card {
-        width : 600px;
+        width : 512px;
     }
 }

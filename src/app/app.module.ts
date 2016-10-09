@@ -18,7 +18,6 @@ import { ResumeComponent } from './resume/resume.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
-import { CenterCardComponent } from './center-card/center-card.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +29,6 @@ import { CenterCardComponent } from './center-card/center-card.component';
     ProjectsComponent,
     BlogComponent,
     ContactComponent,
-    CenterCardComponent,
   ],
   imports: [
     BrowserModule,

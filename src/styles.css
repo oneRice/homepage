@@ -4,3 +4,21 @@
 .mdl-layout__drawer-button {
     color: white !important;
 }
+
+@media (min-width: 480px) and (max-width: 839px) {
+    .center-card {
+        width: 440px;
+    }
+}
+
+@media (min-width: 840px) and (max-width: 1023px) {
+    .center-card {
+        width: 630px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .center-card {
+        width : 820px;
+    }
+}

@@ -1,5 +1,9 @@
 .nav-head {
-    background-color: #212121;
+    background-color: #263238;
+}
+
+.foot-end {
+    background-color: #263238 !important;
 }
 
 .nav-box {

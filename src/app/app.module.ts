@@ -18,6 +18,7 @@ import { ResumeComponent } from './resume/resume.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
+import { FabComponent } from './fab/fab.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { ContactComponent } from './contact/contact.component';
     ProjectsComponent,
     BlogComponent,
     ContactComponent,
+    FabComponent,
   ],
   imports: [
     BrowserModule,

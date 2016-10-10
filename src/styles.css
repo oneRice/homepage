@@ -5,12 +5,23 @@ body {
 }
 
 .initial-msg {
-    padding: 80px;
+    padding: 100px 0 100px 0;
     text-align: center;
-    font-size: 112px;
     font-weight: lighter;
     background-color:#263238;
     color: white;
+}
+
+@media (max-width: 839px) {
+    .initial-msg {
+        font-size: 56px;
+    }
+}
+
+@media (min-width: 840px) {
+    .initial-msg {
+        font-size: 112px;
+    }
 }
 
 .foot-end {
@@ -25,6 +36,13 @@ body {
     color: white !important;
 }
 
+
+@media (max-width: 479px) {
+    .center-card {
+        width: 370px;
+    }
+}
+
 @media (min-width: 480px) and (max-width: 839px) {
     .center-card {
         width: 440px;
@@ -33,7 +51,7 @@ body {
 
 @media (min-width: 840px) and (max-width: 1023px) {
     .center-card {
-        width: 630px;
+        width: 650px;
     }
 }
 

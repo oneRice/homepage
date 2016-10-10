@@ -1,12 +1,12 @@
 .state-dark {
-    padding: 80px;
+    padding: 100px 0 100px 0;
     text-align: center;
     background-color:#263238;
     color: white;
 }
 
 .state-dark-small {
-    padding: 60px;
+    padding: 60px 0 60px 0;
     text-align: center;
     background-color:#263238;
     color: white;
@@ -14,7 +14,14 @@
 
 
 .state-light {
-    padding: 100px;
+    padding: 100px 0 100px 0;
+    text-align: center;
+    background-color:#CFD8DC;
+    color: #212121;
+}
+
+.state-light-small {
+    padding: 60px 0 60px 0;
     text-align: center;
     background-color:#CFD8DC;
     color: #212121;

@@ -1,5 +1,5 @@
 <div class="main-container" mdl-shadow="2">
-   <mdl-layout mdl-layout-fixed-header mdl-layout-header-seamed>
+   <mdl-layout mdl-layout-fixed-header #mdlLayout1="mdlLayout">
        
        <!--nav bar-->
       <mdl-layout-header class="nav-head">
@@ -20,11 +20,11 @@
       <mdl-layout-drawer>
          <mdl-layout-title>{{title}}</mdl-layout-title>
          <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" routerLink="/home">Home</a>
-            <a class="mdl-navigation__link" routerLink="/projects">My Projects</a>
-            <a class="mdl-navigation__link" routerLink="/resume">Resume</a>
-            <a class="mdl-navigation__link" routerLink="/blog">Blog</a>
-            <a class="mdl-navigation__link" routerLink="/contact">Contact Me</a>
+            <a class="mdl-navigation__link" routerLink="/home" (click)="mdlLayout1.closeDrawer()">Home</a>
+            <a class="mdl-navigation__link" routerLink="/projects" (click)="mdlLayout1.closeDrawer()">My Projects</a>
+            <a class="mdl-navigation__link" routerLink="/resume" (click)="mdlLayout1.closeDrawer()">Resume</a>
+            <a class="mdl-navigation__link" routerLink="/blog" (click)="mdlLayout1.closeDrawer()">Blog</a>
+            <a class="mdl-navigation__link" routerLink="/contact" (click)="mdlLayout1.closeDrawer()">Contact Me</a>
          </nav>
       </mdl-layout-drawer>
 

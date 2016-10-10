@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-    background-color: #37474F;
+    background-color: #263238;
 }
 
 .initial-msg {
@@ -15,6 +15,10 @@ body {
 
 .foot-end {
     background-color: #263238 !important;
+}
+
+.dark-text{
+    color: #424242 !important;
 }
 
 .mdl-layout__drawer-button {

@@ -1,0 +1,12 @@
+.nav-head {
+    background-color: #212121;
+}
+
+.nav-box {
+    border-width: 1px;
+    border-color: white;
+}
+
+.active {
+    font-weight: bold;
+}

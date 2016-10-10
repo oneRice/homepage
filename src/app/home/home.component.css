@@ -1,0 +1,49 @@
+.state-dark {
+    padding: 100px;
+    text-align: center;
+    background-color:#263238;
+    color: white;
+}
+
+.state-dark-small {
+    padding: 60px;
+    text-align: center;
+    background-color:#263238;
+    color: white;
+}
+
+
+.state-light {
+    padding: 100px;
+    text-align: center;
+    background-color:#CFD8DC;
+    color: #212121;
+}
+
+@media (min-width: 840px) {
+    .title {
+        font-size: 112px;
+        font-weight: lighter;
+        line-height: 125px;
+    }
+
+    .sub-title {
+        font-size: 78px;
+        font-weight: lighter;
+        line-height: 85px;
+    }
+}
+
+@media (max-width: 839px) {
+    .title {
+        font-size: 56px;
+        font-weight: lighter;
+        line-height: 60px;
+    }
+
+    .sub-title {
+        font-size: 36px;
+        font-weight: lighter;
+        line-height: 40px;
+    }
+}
